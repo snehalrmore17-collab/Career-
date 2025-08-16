@@ -1,0 +1,15 @@
+[package]
+name = "Career.move"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule= "0x01695b2ac46fb0e2dcb9384f1d32f4cfca5f4d3c8eb28509879dfa28e6741236"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
